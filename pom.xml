@@ -13,7 +13,6 @@
     <groupId>br.dev.ricardomendes</groupId>
     <artifactId>jsf-poc-joinfaces-richfaces</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <packaging>war</packaging>
 
     <name>jsf-poc-joinfaces-richfaces</name>
     <description>A proof of concept for JavaServer Faces using JoinFaces, RichFaces, and Spring Boot</description>
@@ -53,12 +52,6 @@
             <groupId>org.glassfish.jaxb</groupId>
             <artifactId>jaxb-runtime</artifactId>
             <scope>runtime</scope>
-        </dependency>
-
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-tomcat</artifactId>
-            <scope>provided</scope>
         </dependency>
 
         <dependency>
